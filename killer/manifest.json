@@ -1,0 +1,14 @@
+{
+  "name": "NYT Paywall Killer",
+  "version": "1.2",
+  "description": "We reject: div-based paywalls.  We believe in: free internet content.",
+  "content_scripts": [
+    {
+      "matches": ["http://*.nytimes.com/*"],
+      "js":["jquery-1.5.2.min.js", "killer.js"]
+    }
+  ],
+  "homepage_url": "http://projects.nickjalbert.com/killer/",
+  "update_url": "http://projects.nickjalbert.com/killer/updateInfo.xml"
+}
+
